@@ -1,4 +1,4 @@
-/*@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 @tailwind base;
@@ -33,9 +33,7 @@ body {
   @apply top-[-8px] rotate-[135deg];
 }
 
-input:checked ~ .dot {
-  @apply bg-primary translate-x-full;
-}
+
 
 input:checked ~ .dot .active {
   @apply block;
@@ -46,7 +44,7 @@ input:checked ~ .dot .inactive {
 }
 
 input#toggleFour:checked ~ .box {
-  @apply bg-primary;
+  /* @apply bg-primary; */
 }
 input#toggleFour:checked ~ .dot {
   @apply translate-x-full bg-white;
@@ -56,7 +54,7 @@ input#toggleFive:checked ~ .dot {
   @apply bg-white translate-x-full;
 }
 input#toggleFive:checked ~ .dot span {
-  @apply bg-primary;
+  /* @apply bg-primary; */
 }
 
 input#toggleSix:checked ~ .dot {
@@ -67,27 +65,27 @@ input#toggleEight:checked ~ .box {
   @apply bg-[#EAEEFB];
 }
 input#toggleEight:checked ~ .dot {
-  @apply bg-primary;
+  /* @apply bg-primary; */
 }
 input#toggleEight:checked ~ .dot span {
-  @apply border-white bg-primary;
+  /* @apply border-white bg-primary; */
 }
 
 input#toggleNine:checked ~ .dot span {
   @apply bg-white;
 }
 input#toggleNine:checked ~ .dot {
-  @apply bg-primary;
+  /* @apply bg-primary; */
 }
 
 input:checked ~ .box {
-  @apply border-primary;
+  /* @apply border-primary; */
 }
 input#checkboxLabelOne:checked ~ .box {
-  @apply border-primary;
+  /* @apply border-primary; */
 }
 input#checkboxLabelOne:checked ~ .box .dot {
-  @apply bg-primary;
+  /* @apply bg-primary; */
 }
 
 input#checkboxLabelTwo:checked ~ .box span {
@@ -99,14 +97,14 @@ input#checkboxLabelThree:checked ~ .box span {
 }
 
 input#checkboxLabelFour:checked ~ .box {
-  @apply border-primary;
+  /* @apply border-primary; */
 }
 input#checkboxLabelFour:checked ~ .box span {
-  @apply bg-primary;
+  /* @apply bg-primary; */
 }
 
 input#checkboxLabelFive:checked ~ .box {
-  @apply bg-primary;
+  /* @apply bg-primary; */
 }
 
 .shape-gradient {
