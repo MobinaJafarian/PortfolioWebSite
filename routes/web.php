@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 
 Route::post('/contact/submit', [ContactController::class, 'submit']);
